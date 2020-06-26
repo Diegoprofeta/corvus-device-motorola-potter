@@ -28,7 +28,7 @@ $(call inherit-product, device/motorola/potter/device.mk)
 
 # PixelExperience props
 TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 IS_PHONE := true
 ## Device identifier. This must come after all inclusions
