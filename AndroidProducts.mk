@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_potter.mk
+    $(LOCAL_DIR)/du_potter.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_potter-user \
-    ancient_potter-userdebug \
-    ancient_potter-eng
+    du_potter-user \
+    du_potter-userdebug \
+    du_potter-eng
