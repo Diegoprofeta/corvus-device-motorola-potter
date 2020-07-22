@@ -346,3 +346,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Fast App Launch
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+# USB debugging
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
