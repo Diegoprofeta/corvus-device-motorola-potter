@@ -26,12 +26,11 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 # Inherit from potter device
 $(call inherit-product, device/motorola/potter/device.mk)
 
-# PixelExperience props
-TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
+# Corvus props
 scr_resolution := 1080
 IS_PHONE := true
+DU_BUILD_TYPE := OFFICIAL
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
 PRODUCT_NAME := du_potter

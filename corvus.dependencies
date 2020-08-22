@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository":  "CorvusRom-Devices/kernel_motorola_potter",
+    "target_path": "kernel/motorola/potter",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "CorvusRom-Devices/vendor_motorola_potter",
+    "target_path": "vendor/motorola/potter",
+    "branch": "10"
+  },
+  { 
+    "remote": "github",
+    "repository": "arrowos-devices/packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions",
+    "branch": "arrow-10.0"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_system_qcom",
+    "target_path": "system/qcom",
+    "branch": "lineage-17.1"
+  }
+]
